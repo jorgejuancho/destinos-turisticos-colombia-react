@@ -1,21 +1,21 @@
 # Destinos turisticos en colombia
 
-### este repositorio fue construido con react.js
+### Este repositorio fue construido con react.js
 
 Contiene contenido dinamico de los principales lugares turiticos de colombia, filtrado por regiones y departamentos.
 
 ---
 
-### contiene:
+### Contiene:
 
-- componentes de react
-- reutilizacion de componentes
-- consumo de api
-- asincronismo
-- hooks
-  - personalizado
-  - useState
-  - useEffect
+- Componentes de react
+- Reutilizacion de componentes
+- Consumo de api
+- Asincronismo
+- Hooks
+  - Personalizado
+  - UseState
+  - UseEffect
 
 ---
 
