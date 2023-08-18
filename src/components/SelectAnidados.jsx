@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import SelectList from "./SelectList";
 import AtraccionTuristica from "./AtraccionTuristica";
-import Loader from "./Loader";
 
 const SelectsAnidados = () => {
   const [region, setRegion] = useState("");

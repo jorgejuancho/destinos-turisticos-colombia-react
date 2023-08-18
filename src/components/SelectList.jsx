@@ -22,8 +22,11 @@ const SelectList = ({ title, url, handleChange }) => {
 
   return (
     <>
-      <label htmlFor={id}>{label}: </label>
+      <label htmlFor={id}>
+        <h2>{label}:</h2>
+      </label>
       {loading && <Loader />}
+
       <select name={id} id={id} onChange={handleChange}>
         <option value="">Elige {title}</option>
 

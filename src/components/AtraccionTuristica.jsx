@@ -21,7 +21,7 @@ function AtraccionTuristica({ title, url }) {
     <>
       {loading && <Loader />}
 
-      {console.log(data)}
+      {/* {console.log(data)} */}
 
       {data.map((el) => (
         <div key={el.id}>
@@ -31,27 +31,8 @@ function AtraccionTuristica({ title, url }) {
           <p>{el.description}</p>
         </div>
       ))}
-      {/* <p onChange={handleChange}>
-        {data &&
-          data.cityId === cityId &&
-          data.map((el) => {
-            <p>{el.description}</p>;
-          })}
-      </p> */}
     </>
   );
 }
-
-//  <select name={id} id={id} onChange={handleChange}>
-//    <option value="">Elige {title}</option>
-//    {/* {data && console.log(data)} */}
-
-//    {data &&
-//      data.map((el) => (
-//        <option key={el.id} value={el.id}>
-//          {el.name}
-//        </option>
-//      ))}
-//  </select>;
 
 export default AtraccionTuristica;
