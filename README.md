@@ -19,6 +19,8 @@ Contiene contenido dinamico de los principales lugares turiticos de colombia, fi
 
 ---
 
+### [**_ver aplicacion_**](https://jorgejuancho.github.io/destinos-turisticos-colombia-react/)
+
 ![screen mobile](./public/screen-mobile.png)
 
 ![screen desktop](./public/screen-desktop.png)
